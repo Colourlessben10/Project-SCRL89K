@@ -1,0 +1,50 @@
+                +----------------------+
+                |        User          |
+                |   Search Query       |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |     Web Interface    |
+                |   (Search Bar/UI)    |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |    Query Processor   |
+                | - Clean query        |
+                | - Tokenize words     |
+                | - Remove stop words  |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |    Search Engine     |
+                |  - String matching   |
+                |  - Keyword search    |
+                |  - Filtering logic   |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |       Indexer        |
+                |   Fast lookup table  |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |       Database       |
+                |  Files / Records     |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |    Results Ranking   |
+                | Sort relevant data   |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |   Display Results    |
+                |   (UI Response)      |
+                +----------------------+
